@@ -1,0 +1,41 @@
+/* body{
+    font-size: 17px;
+    font-family: arial;
+    background: #f4f4f4;
+    line-height: 1.5em;
+
+} */
+header{
+    background:#333;
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px #000 solid;
+    margin-bottom: 10px;
+}
+button{
+    padding: 12px 28px;
+    width: 250px;
+}
+#find-city {
+    padding: 5px 24px;
+    width: fit-content;
+}
+.main {
+    width: 40%;
+    float: right;
+    margin-right:0
+}
+.list-group {
+    float: left;
+}
+.card.side {
+    float: left;
+    margin: 8px
+}
+.main-img {
+    size: 50px;
+}
+.list-group{
+    float: left;
+}

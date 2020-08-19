@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- <link rel="stylesheet" href="bootstrap.css"/>  -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+
+    </header>
+    
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <form class="form-inline">
+              <input id="city-input" class="form-control mr-sm-2" type="search" placeholder="Search a City" aria-label="Search">
+              <button id="find-city" class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+        <div class="list-group list-group-flush">
+            <button type="button" id= "log" class="list-group-item list-group-item-action btn2"></button>
+            
+        </div>
+        <div class="container">
+            <div class="card main" style="width: 40%;">
+                <img  class="card-img-top main-img" id="main-icon" src="" alt="...">
+                <div class="card-body">
+                    <h2 id="cityName">City</h2>
+                    <h5 id="temp">Temperature:</h5>
+                    <h5 id="humid">Humidity:</h5>
+                    <h5 id="wind">Wind Speed:</h5>
+                    <h5 id="uv">UV Index:</h5>         
+                </div>
+            </div>
+
+            <div class="card side" style="width: 10rem;">
+                <img  class="card-img-top" id="firstIcon" src="" alt="...">
+                <div class="card-body">
+                    <div class="dayOne">Date:</div>
+                    <div class="temp">Temperature:</div>
+                    <div class="humid">Humidity:</div>
+                </div>
+            </div>
+            <div class="card side" style="width: 10rem;">
+                <img  class="card-img-top" id="secondIcon" src="" alt="...">
+                <div class="card-body">
+                    <div class="dateTwo">Date:</div>
+                    <div class="tempTwo">Temperature:</div>
+                    <div class="humidTwo">Humidity:</div>
+                </div>
+            </div>
+            <div class="card side" style="width: 10rem;">
+                <img class="card-img-top" id="thirdIcon" src="" alt="...">
+                <div class="card-body">
+                    <div class="dateThree">Date:</div>
+                    <div class="tempThree">Temperature:</div>
+                    <div class="humidThree">Humidity:</div>
+                </div>
+            </div>
+            <div class="card side" style="width: 10rem;">
+                <img class="card-img-top" id="fourthIcon" src="" alt="...">
+                <div class="card-body">
+                    <div class="dateFour">Date:</div>
+                    <div class="tempFour">Temperature:</div>
+                    <div class="humidFour">Humidity:</div>
+                </div>
+            </div>
+            <div class="card side" style="width: 10rem;">
+                <img  class="card-img-top" id="fifthIcon" src="" alt="...">
+                <div class="card-body">
+                    <div class="dateFive">Date:</div>
+                    <div class="tempFive">Temperature:</div>
+                    <div class="humidFive">Humidity:</div>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>         
+<body>
+    
+</body>
+</html>
